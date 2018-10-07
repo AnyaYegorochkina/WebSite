@@ -1,0 +1,159 @@
+/* Сброс стилей браузера */
+
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, 
+menu, nav, section {
+	display: block;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style: square;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, 
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* Завершение сброса стилей браузера */
+
+body {
+  font-family: Arial;
+}
+
+header {
+  font-weight: bold;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #3A004D;
+}
+
+#container {
+  display: flex;
+}
+
+nav {
+  flex: 1;
+  width: 30%;
+  background-color: #E080FF;
+  text-align: center;
+}
+
+nav, #MIT {
+  
+  padding-bottom: 20px;
+}
+
+nav h1 {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  background-color: #C100FF;
+  padding-top: 10px;
+  color: white;
+}
+
+nav p {
+  padding: 10px 0;
+  font-size: 1.3em;
+  border: 1px solid #C100FF;
+  border-top: none;
+  color: white;
+  background-color: #3A004D;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav p:hover {
+  background-color: black;
+  color: yellow;
+}
+
+#MIT p, #MIT h1{
+  padding: 0 20px;
+}
+
+#MIT {
+  flex: 2;
+  width: 70%;
+  background-color: #F9E6FF;
+  padding-top: 20px;
+}
+
+#MIT p, nav p {
+  padding-top: 10px;
+}
+
+#jsBalls {
+ background-color: #704080;
+  
+  text-align: center;
+}
+
+#jsBalls h1 {
+  padding: 20px 0;
+  color: white;
+  font-size: 1.4em;
+}
+
+footer {
+  background-color: #C100FF;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
+
+#noCanvas {
+  color: white;
+  display: none;
+  padding: 0 10px 20px 10px;
+}
+
+
+@media screen and (max-width: 700px) {
+  
+  nav, #MIT, #container {
+    display: inline-block;
+    width: 100%;
+    flex: 1;
+  }
+  
+  nav {
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 316px) {
+  canvas {
+    display: none;
+  }
+  
+  #noCanvas {
+    display: block;
+  }
+}

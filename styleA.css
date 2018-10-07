@@ -1,0 +1,36 @@
+#task1 {
+  font-size: 40px;
+  font-family: tahoma;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+#task1 div {
+  flex: 1;
+  width: 100px;
+  height: 100px;
+  background-color: #dfe1e7;
+  
+  border-top: 1px solid black;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#task1 #div6 {
+  background-color: #687291;
+  border: 4px solid black;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  background-color: #687291;
+}
+
+#task1 h1 {
+  padding: 20px 0;
+}
+
+#div6 p {
+  flex: 1;
+}

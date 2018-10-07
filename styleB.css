@@ -1,0 +1,40 @@
+#task2 {
+  font-size: 40px;
+  font-family: tahoma;
+  background-color: #E080FF;
+}
+
+#task2 h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#container2 div, #divLast {
+  width: 100px;
+  height: 150px;
+  border-left: 10px dotted #D0D0FF;
+  background-color: #eeeff2;
+  margin-left: 10px;
+}
+
+#container2 {
+  display: flex;
+  flex-flow: row nowrap; 
+}
+
+#divLast {
+  margin: 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+#task2 p {
+  padding-left: 10px;
+}
+
+#task2 div:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
